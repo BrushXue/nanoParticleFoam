@@ -1,6 +1,6 @@
 # nanoParticleFoam
 
-Solve mass transport of nanoparticles in discrete model.
+Solve mass transport of nanoparticles in discrete model with temperature field.
 
 ## Installation
 
@@ -30,7 +30,7 @@ In constant/reactingCloud1Properties add forces:
 
 # thermophoresisFoam
 
-Solve mass transport of nanoparticles in a continuous model.
+Solve mass transport of nanoparticles in a continuous model with temperature field.
 
 ## Installation
 
