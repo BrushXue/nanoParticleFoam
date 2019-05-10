@@ -15,15 +15,25 @@ Compile nanoParticleFoam solver.
 In constant/reactingCloud1Properties
 
 particleForces
+
 {
+
     sphereBrownianMotion
+    
     {
+    
     // No parameter needed
+    
     }
+    
     Thermophoretic
+    
     {
+    
         ST   0.66;// Soret coefficient
+        
     }
+    
 }
 
 # thermophoresisFoam
