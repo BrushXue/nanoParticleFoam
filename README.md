@@ -1,10 +1,12 @@
 # nanoParticleFoam
 
-## Solve mass transport of nanoparticles in discrete model.
+Solve mass transport of nanoparticles in discrete model.
+
+## Installation
 
 Replace makeThermoParcelForces.H in $WM_PROJECT_DIR/src/lagrangian/intermediate/parcels/include
 
-Copy Thermophoretic and SphereBrownianMotion to $WM_PROJECT_DIR/src/lagrangian/intermediate/submodels/Kinematic/ParticleForces
+Copy Thermophoretic and SphereBrownianMotion folder to $WM_PROJECT_DIR/src/lagrangian/intermediate/submodels/Kinematic/ParticleForces
 
 Re-compile Lagrangian libraries.
 
@@ -29,6 +31,8 @@ In constant/reactingCloud1Properties add forces:
 # thermophoresisFoam
 
 Solve mass transport of nanoparticles in a continuous model.
+
+## Installation
 
 Compile thermophoresisFoam solver.
 
