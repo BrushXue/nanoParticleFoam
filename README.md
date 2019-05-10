@@ -12,7 +12,7 @@ Compile nanoParticleFoam solver.
 
 ## Usage
 
-In constant/reactingCloud1Properties
+In constant/reactingCloud1Properties add forces:
 
     particleForces
     {
@@ -31,3 +31,11 @@ In constant/reactingCloud1Properties
 Solve mass transport of nanoparticles in a continuous model.
 
 Compile thermophoresisFoam solver.
+
+## Usage
+
+In time folder, include a C and ST file. For wall boundary condition, use zeroGradient for C and uniform 0 for ST.
+
+In constant/transportProperties add diameter:
+
+    d            d [0 1 0 0 0 0 0] 2e-7;
