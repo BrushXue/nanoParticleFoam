@@ -1,6 +1,6 @@
 # nanoParticleFoam
 
-Solve mass transport of nanoparticles in discrete model.
+## Solve mass transport of nanoparticles in discrete model.
 
 Replace makeThermoParcelForces.H in $WM_PROJECT_DIR/src/lagrangian/intermediate/parcels/include
 
@@ -10,6 +10,11 @@ Re-compile Lagrangian libraries.
 
 Compile nanoParticleFoam solver.
 
+## Usage
+
+
 # thermophoresisFoam
 
 Solve mass transport of nanoparticles in a continuous model.
+
+Compile thermophoresisFoam solver.
